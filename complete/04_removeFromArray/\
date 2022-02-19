@@ -1,0 +1,10 @@
+const removeFromArray = function(...args) {
+  for (let arg in args) {
+    console.log(arg);
+  }
+};
+
+removeFromArray([1,2,3,4,5]);
+
+// Do not edit below this line
+module.exports = removeFromArray;
